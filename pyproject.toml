@@ -11,6 +11,7 @@ graphene-django = "^3.1.2"
 django = "3.2"
 django-cassandra-engine = "^1.8.0"
 cassandra-driver = "^3.28.0"
+cqlengine = "^0.21.0"
 
 
 [build-system]

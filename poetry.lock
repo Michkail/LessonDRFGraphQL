@@ -108,6 +108,20 @@ files = [
 ]
 
 [[package]]
+name = "cqlengine"
+version = "0.21.0"
+description = "Cassandra CQL 3 Object Mapper for Python"
+optional = false
+python-versions = "*"
+files = [
+    {file = "cqlengine-0.21.0.tar.gz", hash = "sha256:4d87bc9b37cf9aa99b3858a6474f78fb2365777dc6ce054761a1fa0c141d2500"},
+]
+
+[package.dependencies]
+cassandra-driver = ">=2.1.0"
+six = ">=1.7.2"
+
+[[package]]
 name = "django"
 version = "3.2"
 description = "A high-level Python Web framework that encourages rapid development and clean, pragmatic design."
@@ -413,4 +427,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "c6328758b1bf3bc3062ff2ffe0a98da8abe59c0d1323e528ba3f63caa00e8333"
+content-hash = "aee1dd0eab89610a0c2adadd07b01771c6735446d12c18c82a4a8359990ae7dc"
